@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background-color: beige;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.logout {
+
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.header {
+  1width: 100%;
+  1height: 120px;
+  background-color: #00bcd4;
+}
+
+.header-title-text {
+  1font-size: 5rem;
+}
+
+.content-header {
+  background-color: #00bcd4;
+}
+
+.tab {
+  overflow: hidden;
+}
+
+.tab-button {
+  float: left;
+  width: 25%;
+  text-align: center;
+  1font-size: 3rem;
+}
+
+.content-main {
+  1font-size: 5rem;
+  padding: 0.5rem;
+}
+
+.profile-content-image {
+  text-align: center;
+}
+.profile-content-image > img {
+  width: 80%;
+}
+
+/* posts */
+.posts {
+  margin-bottom: 0.5rem;
+  background-color: white;
+
+}
+
+.posts:last-child {
+  margin-bottom: 0;
+}
+
+.posts-header > div {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+.posts-header div > h2 {
+  1font-size: 4rem;
+  margin: 0;
+}
+
+.posts-body > h6 {
+  1font-size: 4rem;
+  margin: 0;
+}
+
+.posts-body > p {
+  1font-size: 3rem;
+  margin: 0;
+}
+
+.posts-footer > span {
+  1font-size: 3rem;
+}
